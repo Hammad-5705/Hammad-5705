@@ -67,7 +67,7 @@ Backend and AI infrastructure for an enterprise real-time communication platform
 ## Technical Skills
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,django,tensorflow,sklearn,pandas,numpy,mysql,c,cpp&perline=9" alt="Core technologies">
+  <img src="https://skillicons.dev/icons?i=py,django,tensorflow,sklearn,mysql,c,cpp&perline=9" alt="Core technologies">
   <br>
   <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,git,github,linux&perline=9" alt="Frontend and tools">
 </p>
