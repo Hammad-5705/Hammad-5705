@@ -1,97 +1,69 @@
-<div align="center">
+# Muhammad Hammad Nadeem
 
-# Hi, I'm Hammad 👋 — AI/ML Engineer turning Backend Systems into Intelligent Products
-
-### Building production-grade ML pipelines, autonomous agents, and scalable automation — backed by years of enterprise backend engineering.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hammad5705)
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamadnad2014@gmail.com)
-
-</div>
+**Machine Learning Engineer | Agentic AI Systems & Backend Development**
 
 ---
 
-### 🚀 About Me
+## About
 
-I'm an **AI/ML Engineer at Rajco**, focused on designing and shipping intelligent agents, ML pipelines, and automation systems from research to production. My edge is a strong **Software Engineering foundation** (2+ years at Brimrix) — I don't just build models, I know how to integrate and scale them inside real backend architectures using Django and Frappe.
+I am a Machine Learning Engineer with over two years of professional experience building production software in Python and Django. My current work focuses on agentic AI systems for industrial environments: voice- and text-driven assistants that connect natural language to real operational data, with strict attention to latency, reliability and access control.
 
-- 🧠 Designed **RUMI** — a system-level task automation agent
-- 🏦 Architected **ALPINO** — a secure, agentic financial system
-- 🎓 Backend & database specializations from **Meta** and **Google**
-- 🔭 Currently exploring: Agentic workflows, MLOps, and LLM-powered automation
-- 💬 Ask me about: AI agents, Neural Networks, or backend-to-ML integration
+I combine backend engineering, real-time systems and applied machine learning, and I am looking for an engineering role in Germany where I can build dependable AI-enabled software.
 
----
+## Focus Areas
 
-### 🛠️ Tech Stack
+- **Agentic AI systems:** language-model-driven assistants for data analysis and report generation
+- **Speech and NLP pipelines:** speech-to-text, text processing and voice-activated interfaces
+- **Text-to-SQL:** deterministic, state-machine-controlled query synthesis
+- **Real-time backends:** Django ASGI, WebSockets and low-latency state synchronisation
+- **Enterprise systems:** ERP customisation and automation, REST API design
 
-**Languages**
+## Professional Experience
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-654FF0?style=for-the-badge&logo=nasm&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+### Machine Learning Engineer, Rajco (06/2026 to present)
 
-**Frameworks & Backend**
+- Designed and deployed an agentic copilot that processes voice and text input and automates factory data ingestion, analysis and report generation.
+- Built data pipelines for manufacturing metrics, reducing manual reporting effort and providing real-time operational insight.
+- Integrated speech-to-text for hands-free interaction with factory management systems.
+- Developed an organisation-wide internal communication application to replace mobile phone use and improve compliance.
 
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Frappe](https://img.shields.io/badge/Frappe-0089D6?style=for-the-badge&logo=frappe&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+### Software Engineer, Brimrix (08/2024 to 06/2026)
 
-**Machine Learning & AI**
+- Developed and maintained web applications using Python and Django.
+- Customised and extended ERP functionality with the Frappe framework and automated ERP processes.
+- Designed, implemented and tested RESTful APIs for front-end applications.
 
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/Neural_Networks-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Decision Trees](https://img.shields.io/badge/Decision_Trees-2E8B57?style=for-the-badge)
-![Supervised Learning](https://img.shields.io/badge/Supervised_Learning-4B0082?style=for-the-badge)
+## Selected Work
 
-**Databases & Tools**
+| Project | Description |
+| --- | --- |
+| **Rajco Copilot** | Agentic factory assistant built from first principles, with localised NLP, accelerated ASR pipelines, a deterministic state machine for dynamic Text-to-SQL synthesis, and a real-time Django ASGI streaming engine using bidirectional WebSockets. |
+| **Rajco Talk** | Backend and AI infrastructure for an enterprise-grade unified communication platform, featuring sub-100 ms real-time state synchronisation, WebSocket session orchestration, and an agentic copilot with strict ACL runtime isolation and Text-to-SQL capabilities. |
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+> These projects were built in a professional setting, so their source code is not public. I am happy to discuss architecture and design decisions in an interview.
 
----
+## Technical Skills
 
-### 📊 GitHub Stats
+| Area | Technologies |
+| --- | --- |
+| Languages | Python, SQL, C/C++, Assembly |
+| AI / ML | Agentic LLM systems, NLP, ASR (speech-to-text), Text-to-SQL, TensorFlow, scikit-learn, Pandas, NumPy |
+| Backend & Systems | Django (ASGI), WebSockets, REST APIs, Frappe, MySQL |
+| Frontend & Tools | HTML, CSS, Tailwind CSS, Bootstrap, Jinja2, Git / GitHub, Linux |
 
-<div align="center">
+## Education and Certifications
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Hammad-5705&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hammad-5705&layout=compact&theme=tokyonight&hide_border=true" />
+- **BS Software Engineering**, Virtual University of Pakistan (in progress)
+- **Machine Learning Specialization**, DeepLearning.AI (2026)
+- **Meta Backend Developer Specialization**, Meta (06/2025)
+- **Python Specialization**, University of Michigan (02/2025)
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Hammad-5705&theme=tokyonight&hide_border=true" />
+## Availability
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Hammad-5705&theme=tokyo-night&hide_border=true" />
+I am interested in roles in machine learning engineering, AI-enabled backend development and industrial software.
 
-</div>
+## Contact
 
----
-
-### 💼 Experience Snapshot
-
-| Role | Company | Duration |
-|---|---|---|
-| AI/ML Engineer | **Rajco Industries** | June 2026 – Present |
-| Software Engineer | **Brimrix** | March 2024 – May 2026 |
-
----
-
-### 🏆 Certifications
-
-- Automate Cybersecurity Tasks with Python
-- Using Databases with Python
-- Python Data Structures
-- Chat with Your Data: Generative AI-Powered SQL Data Analysis
-- Introduction to Back-End Development
-
----
-
-<div align="center">
-
-*Let's connect and talk AI agents, MLOps, or the future of intelligent automation!* 🤝
-
-![Profile Views](https://komarev.com/ghpvc/?username=Hammad-5705&color=blueviolet&style=flat)
-
-</div>
+- Email: [hamadnad2014@gmail.com](mailto:hamadnad2014@gmail.com)
+- LinkedIn: [linkedin.com/in/hammad5705](https://www.linkedin.com/in/hammad5705)
+- Phone: +92 306 6136879
