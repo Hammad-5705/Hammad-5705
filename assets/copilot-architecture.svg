@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="1000" height="440" role="img" aria-label="Conceptual architecture of the Rajco Copilot">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1F3A5F"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .t  { font-size: 15px; font-weight: 600; fill: #0B1B33; }
+    .s  { font-size: 12px; fill: #4A5B70; }
+    .h  { font-size: 20px; font-weight: 700; fill: #1F3A5F; }
+    .box { fill: #FFFFFF; stroke: #1F3A5F; stroke-width: 1.6; }
+    .key { fill: #E6F5F3; stroke: #3FB6A8; stroke-width: 1.8; }
+    .bar { fill: #EAF1F9; stroke: #8FA9C6; stroke-width: 1.4; }
+    .acl { fill: #F3EEFB; stroke: #8E6CC9; stroke-width: 1.4; }
+  </style>
+
+  <rect x="1" y="1" width="998" height="438" rx="14" fill="#F6F8FB" stroke="#D5DEE9" stroke-width="2"/>
+  <text x="32" y="44" class="h">Rajco Copilot: conceptual architecture</text>
+  <text x="32" y="66" class="s">Simplified view of how voice and text requests become analysed ERP data and reports</text>
+
+  <!-- row of stages -->
+  <rect x="32"  y="100" width="150" height="86" rx="10" class="box"/>
+  <text x="107" y="136" class="t" text-anchor="middle">Voice / Text</text>
+  <text x="107" y="156" class="s" text-anchor="middle">user request</text>
+
+  <rect x="222" y="100" width="170" height="86" rx="10" class="box"/>
+  <text x="307" y="136" class="t" text-anchor="middle">ASR + NLP</text>
+  <text x="307" y="156" class="s" text-anchor="middle">speech-to-text, language</text>
+  <text x="307" y="172" class="s" text-anchor="middle">understanding</text>
+
+  <rect x="432" y="100" width="190" height="86" rx="10" class="key"/>
+  <text x="527" y="132" class="t" text-anchor="middle">Agent logic</text>
+  <text x="527" y="152" class="s" text-anchor="middle">deterministic state machine</text>
+  <text x="527" y="168" class="s" text-anchor="middle">controls each step</text>
+
+  <rect x="662" y="100" width="150" height="86" rx="10" class="key"/>
+  <text x="737" y="136" class="t" text-anchor="middle">Text-to-SQL</text>
+  <text x="737" y="156" class="s" text-anchor="middle">dynamic query</text>
+  <text x="737" y="172" class="s" text-anchor="middle">synthesis</text>
+
+  <rect x="852" y="100" width="116" height="86" rx="10" class="box"/>
+  <text x="910" y="136" class="t" text-anchor="middle">ERP</text>
+  <text x="910" y="156" class="s" text-anchor="middle">data (SQL)</text>
+
+  <g stroke="#1F3A5F" stroke-width="1.8" marker-end="url(#arr)">
+    <line x1="182" y1="143" x2="220" y2="143"/>
+    <line x1="392" y1="143" x2="430" y2="143"/>
+    <line x1="622" y1="143" x2="660" y2="143"/>
+    <line x1="812" y1="143" x2="850" y2="143"/>
+  </g>
+
+  <!-- return path -->
+  <path d="M910 188 L910 232 L307 232 L307 270" fill="none" stroke="#1F3A5F" stroke-width="1.8" stroke-dasharray="6 5" marker-end="url(#arr)"/>
+  <text x="620" y="224" class="s" text-anchor="middle">results flow back</text>
+
+  <rect x="212" y="272" width="190" height="64" rx="10" class="box"/>
+  <text x="307" y="300" class="t" text-anchor="middle">Analysis + reports</text>
+  <text x="307" y="320" class="s" text-anchor="middle">answers and PDF reports</text>
+
+  <!-- platform layers -->
+  <rect x="32" y="356" width="936" height="30" rx="8" class="bar"/>
+  <text x="500" y="376" class="t" text-anchor="middle">Django ASGI streaming engine  |  bidirectional WebSockets for low-latency voice and text</text>
+
+  <rect x="32" y="394" width="936" height="30" rx="8" class="acl"/>
+  <text x="500" y="414" class="t" text-anchor="middle">Strict ACL runtime isolation applied across the platform</text>
+</svg>
