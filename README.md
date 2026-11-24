@@ -20,21 +20,38 @@
 
 ## 👨‍💻 About Me
 
-I am a **Machine Learning Engineer with 2+ years of experience** building production software in Python and Django. My current work focuses on **agentic AI systems for industrial environments**: voice- and text-driven assistants that connect natural language to real operational data, with strict attention to **latency, reliability and access control**.
+I am a **Machine Learning Engineer with 2+ years of experience** building production software in **Python**. My current work focuses on **agentic AI and ML pipelines for industrial environments**: voice- and text-driven assistants that turn natural language into queries over real operational data, with strict attention to **latency, reliability and access control**.
 
-I combine backend engineering, real-time systems and applied machine learning, and I am looking for an engineering role in **Germany** where I can build dependable AI-enabled software.
+I combine data pipelines, applied machine learning and real-time backend engineering, and I am looking for an ML engineering role in **Germany** where I can build dependable, data-driven AI software.
 
-```js
-const hammad = {
-  role:      "Machine Learning Engineer — Agentic AI & Backend",
-  currently: "Machine Learning Engineer @ Rajco",
-  previously: "Software Engineer @ Brimrix",
-  location:  "Pakistan 🇵🇰",
-  education: "BS Software Engineering — Virtual University of Pakistan (in progress)",
-  focus:     ["Agentic AI", "Speech & NLP", "Text-to-SQL", "Real-time Backends"],
-  certified: ["Meta", "DeepLearning.AI", "University of Michigan"],
-  openTo:    ["Relocation to Germany 🇩🇪", "ML engineering roles", "AI-enabled backend development"],
-};
+```python
+from dataclasses import dataclass, field
+
+@dataclass
+class MLEngineer:
+    name: str = "Muhammad Hammad Nadeem"
+    role: str = "Machine Learning Engineer — Agentic AI & Backend"
+    currently: str = "ML Engineer @ Rajco"
+    previously: str = "Software Engineer @ Brimrix"
+    location: str = "Pakistan 🇵🇰"
+    education: str = "BS Software Engineering — Virtual University of Pakistan (in progress)"
+    focus: list = field(default_factory=lambda: [
+        "Agentic AI", "Speech & NLP", "Text-to-SQL", "ML Pipelines", "Real-time Backends",
+    ])
+    toolkit: list = field(default_factory=lambda: [
+        "Python", "TensorFlow", "scikit-learn", "Pandas", "NumPy", "Django", "SQL",
+    ])
+    certified: list = field(default_factory=lambda: [
+        "DeepLearning.AI", "Meta", "University of Michigan",
+    ])
+    open_to: list = field(default_factory=lambda: [
+        "Relocation to Germany 🇩🇪", "ML engineering roles", "AI-enabled backend development",
+    ])
+
+    def __repr__(self) -> str:
+        return "Turning raw operational data into reliable, real-time AI systems."
+
+hammad = MLEngineer()
 ```
 
 ---
@@ -49,13 +66,13 @@ const hammad = {
 
 ## 🧰 Technology Stack
 
-**Languages & Core**
+**Machine Learning & Data Science**
 
-[![Core stack](https://skillicons.dev/icons?i=py,django,c,cpp,mysql&perline=9)](https://github.com/Hammad-5705)
+[![AI stack](https://skillicons.dev/icons?i=py,tensorflow,sklearn,pandas,numpy&perline=9)](https://github.com/Hammad-5705)
 
-**AI & Machine Learning**
+**Backend, Databases & Systems**
 
-[![AI stack](https://skillicons.dev/icons?i=tensorflow,sklearn,pandas,numpy&perline=9)](https://github.com/Hammad-5705)
+[![Core stack](https://skillicons.dev/icons?i=django,mysql,c,cpp&perline=9)](https://github.com/Hammad-5705)
 
 **Frontend & Tools**
 
@@ -66,12 +83,16 @@ const hammad = {
 
 <br/>
 
-| Domain                | Expertise                                                                    |
-| --------------------- | ---------------------------------------------------------------------------- |
-| **Languages**         | Python, SQL, C/C++, Assembly                                                 |
-| **AI & ML**           | Agentic LLM Systems, NLP, ASR (Speech-to-Text), Text-to-SQL, TensorFlow, scikit-learn, Pandas, NumPy |
-| **Backend & Systems** | Django (ASGI), WebSockets, REST APIs, Frappe, MySQL                          |
-| **Frontend & Tools**  | HTML, CSS, Tailwind CSS, Bootstrap, Jinja2, Git / GitHub, Linux              |
+```python
+skills = {
+    "languages":      ["Python", "SQL", "C/C++", "Assembly"],
+    "ml_ai":          ["Agentic LLM Systems", "NLP", "ASR (Speech-to-Text)", "Text-to-SQL",
+                       "TensorFlow", "scikit-learn"],
+    "data_science":   ["Pandas", "NumPy", "Data Pipelines", "Manufacturing Metrics & Reporting"],
+    "backend":        ["Django (ASGI)", "WebSockets", "REST APIs", "Frappe", "MySQL"],
+    "frontend_tools": ["HTML", "CSS", "Tailwind CSS", "Bootstrap", "Jinja2", "Git / GitHub", "Linux"],
+}
+```
 
 </details>
 
@@ -80,10 +101,15 @@ const hammad = {
 ```mermaid
 mindmap
   root((Hammad))
-    Agentic AI
-      LLM assistants
-      Report generation
-      Access control
+    Machine Learning
+      TensorFlow
+      scikit-learn
+      Agentic LLM systems
+    Data Science
+      Pandas
+      NumPy
+      Data pipelines
+      Manufacturing metrics
     Speech and NLP
       Speech-to-text
       Voice interfaces
@@ -95,10 +121,7 @@ mindmap
       Django ASGI
       WebSockets
       REST APIs
-    Enterprise
-      Frappe ERP
       MySQL
-      Process automation
 ```
 
 ---
