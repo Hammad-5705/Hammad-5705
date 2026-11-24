@@ -25,33 +25,14 @@ I am a **Machine Learning Engineer with 2+ years of experience** building produc
 I combine data pipelines, applied machine learning and real-time backend engineering, and I am looking for an ML engineering role in **Germany** where I can build dependable, data-driven AI software.
 
 ```python
-from dataclasses import dataclass, field
-
-@dataclass
-class MLEngineer:
-    name: str = "Muhammad Hammad Nadeem"
-    role: str = "Machine Learning Engineer — Agentic AI & Backend"
-    currently: str = "ML Engineer @ Rajco"
-    previously: str = "Software Engineer @ Brimrix"
-    location: str = "Pakistan 🇵🇰"
-    education: str = "BS Software Engineering — Virtual University of Pakistan (in progress)"
-    focus: list = field(default_factory=lambda: [
-        "Agentic AI", "Speech & NLP", "Text-to-SQL", "ML Pipelines", "Real-time Backends",
-    ])
-    toolkit: list = field(default_factory=lambda: [
-        "Python", "TensorFlow", "scikit-learn", "Pandas", "NumPy", "Django", "SQL",
-    ])
-    certified: list = field(default_factory=lambda: [
-        "DeepLearning.AI", "Meta", "University of Michigan",
-    ])
-    open_to: list = field(default_factory=lambda: [
-        "Relocation to Germany 🇩🇪", "ML engineering roles", "AI-enabled backend development",
-    ])
-
-    def __repr__(self) -> str:
-        return "Turning raw operational data into reliable, real-time AI systems."
-
-hammad = MLEngineer()
+hammad = {
+    "role":      "Machine Learning Engineer — Agentic AI & Backend",
+    "currently": "ML Engineer @ Rajco",
+    "location":  "Pakistan 🇵🇰",
+    "focus":     ["Agentic AI", "Speech & NLP", "Text-to-SQL", "ML Pipelines"],
+    "stack":     ["Python", "TensorFlow", "scikit-learn", "Pandas", "NumPy", "Django"],
+    "open_to":   ["Relocation to Germany 🇩🇪", "ML engineering roles"],
+}
 ```
 
 ---
@@ -83,16 +64,12 @@ hammad = MLEngineer()
 
 <br/>
 
-```python
-skills = {
-    "languages":      ["Python", "SQL", "C/C++", "Assembly"],
-    "ml_ai":          ["Agentic LLM Systems", "NLP", "ASR (Speech-to-Text)", "Text-to-SQL",
-                       "TensorFlow", "scikit-learn"],
-    "data_science":   ["Pandas", "NumPy", "Data Pipelines", "Manufacturing Metrics & Reporting"],
-    "backend":        ["Django (ASGI)", "WebSockets", "REST APIs", "Frappe", "MySQL"],
-    "frontend_tools": ["HTML", "CSS", "Tailwind CSS", "Bootstrap", "Jinja2", "Git / GitHub", "Linux"],
-}
-```
+| Domain                | Expertise                                                                                            |
+| --------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Languages**         | Python, SQL, C/C++, Assembly                                                                         |
+| **ML & Data Science** | Agentic LLM Systems, NLP, ASR (Speech-to-Text), Text-to-SQL, TensorFlow, scikit-learn, Pandas, NumPy |
+| **Backend & Systems** | Django (ASGI), WebSockets, REST APIs, Frappe, MySQL                                                  |
+| **Frontend & Tools**  | HTML, CSS, Tailwind CSS, Bootstrap, Jinja2, Git / GitHub, Linux                                      |
 
 </details>
 
@@ -104,24 +81,19 @@ mindmap
     Machine Learning
       TensorFlow
       scikit-learn
-      Agentic LLM systems
+      Agentic LLMs
     Data Science
       Pandas
       NumPy
       Data pipelines
-      Manufacturing metrics
     Speech and NLP
-      Speech-to-text
+      ASR
       Voice interfaces
-      Text processing
     Text-to-SQL
-      State machine control
-      Deterministic synthesis
+      State machine
     Backend
       Django ASGI
       WebSockets
-      REST APIs
-      MySQL
 ```
 
 ---
